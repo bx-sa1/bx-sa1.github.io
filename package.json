@@ -1,0 +1,25 @@
+{
+  "name": "bx-sa1.github.io",
+  "version": "1.0.0",
+  "description": "bx-sa1 eleventy website",
+  "scripts": {
+	  "build": "eleventy",
+	  "watch": "eleventy --watch",
+	  "serve": "eleventy --serve",
+	  "start": "eleventy --serve",
+	  "debug": "DEBUG=* eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bx-sa1/bx-sa1.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bx-sa1/bx-sa1.github.io/issues"
+  },
+  "homepage": "https://github.com/bx-sa1/bx-sa1.github.io#readme",
+  "devDependencies": {
+	"@11ty/eleventy": "^0.12.1"
+  }
+}
