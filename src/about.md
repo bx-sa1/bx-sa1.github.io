@@ -1,7 +1,5 @@
 ---
-layout: page.njk
+layout: layouts/post.njk
 permalink: "about/index.html"
 ---
-{% block content %}
-# Placeholder about page
-{% endblock %}
+Placeholder about page
