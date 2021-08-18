@@ -1,1 +1,7 @@
-ECHO is on.
+module.exports = config => {
+  return {
+    dir: {
+      input: 'src'
+    }
+  };
+};
