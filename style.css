@@ -1,0 +1,60 @@
+h2 {
+    font-family: "Ubuntu", "JetBrains", "DejaVu", monospace; 
+    color: #42A5F5;
+}
+
+a {
+    font-family: "Ubuntu", "JetBrains", "DejaVu", monospace; 
+    color: #F59242
+}
+
+p {
+    font-family: "Ubuntu", "JetBrains", "DejaVu", monospace; 
+    color: white;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-image: url("wallpaper.png");
+    background-position: center;
+}
+
+#main-container {
+    margin: 5% auto;
+    padding: 36px;
+    border: 1px solid #817f7f;
+    border-radius: 10px;
+    background-color: #01080E;
+    width: 500px;
+    position: relative;
+    min-height: 100%;
+}
+
+#profile-picture {
+    width: 10%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    border-radius: 100%;
+}
+
+#project {
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    font-size: 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    clear: both;
+    width: 100%;
+}
+
+footer p {
+    color: gray;
+}
