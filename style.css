@@ -31,22 +31,27 @@ main {
 }
 
 .projects-item {
-    color: #00000a;
     padding: 8px;
-    text-decoration: none;
     display: block;
     background-color: #f4f4ff;
+    text-decoration: none;
+}
+
+.projects-item a {
+    text-decoration: none;
+    color: #00000a;
+}
+
+.projects-item a h3 {
+    border-bottom-style: solid;
+    border-bottom-color: #00000f;
+    border-bottom-width: 1px;
 }
 
 .projects-item:hover {
     background-color: #fff;
 }
 
-.projects-item-title {
-    border-bottom-style: solid;
-    border-bottom-color: #00000f;
-    border-bottom-width: 1px;
-}
 footer {
     grid-area: footer;
     font-size: 0.65em;
