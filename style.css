@@ -22,14 +22,15 @@ main {
 
 }
 
-#projects {
+.projects-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 250px;
     gap: 4px;
+    list-style-type: none;
 }
 
-#project-item {
+.projects-item {
     color: #00000a;
     padding: 8px;
     text-decoration: none;
@@ -37,11 +38,11 @@ main {
     background-color: #f4f4ff;
 }
 
-#project-item:hover {
+.projects-item:hover {
     background-color: #fff;
 }
 
-#project-item-title {
+.projects-item-title {
     border-bottom-style: solid;
     border-bottom-color: #00000f;
     border-bottom-width: 1px;

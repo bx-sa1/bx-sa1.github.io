@@ -11,6 +11,7 @@ xhttp.onreadystatechange = function() {
             if(repo["name"] == "bx-sa1" || repo["name"] == "bx-sa1.github.io") continue;
 
             const li = document.createElement("li");
+            li.className = "projects-item";
             
             const proj_item = document.createElement("a");
             proj_item.id = "project-item"
