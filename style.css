@@ -75,16 +75,16 @@ main {
 .links-list {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
-  gap: 4px 4px;
+  justify-content: flex-start;
+  gap: 16px 16px;
   list-style: none;
 }
 
 .links-list li {
-  padding: 4%;
+  padding: 32px;
   background-color: var(--fg);
-  width: 33%;
   transition: background-color 1s, transform 0.2s;
+  flex-basis: 23%;
 }
 
 .links-list li:hover {
